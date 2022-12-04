@@ -1,26 +1,26 @@
 /*Sintaxes
 	ToolLinha(): ToolLinha(tamanho da linha)
-		Cria um número de linhas por um tamanho escolhido.
+		Essa funÃ§Ã£o recebe 2 parÃ¢metros, o tamanho da linha e a quantidade de linhas. Essa funÃ§Ã£o Ã© sÃ³ para criar uma linha divisÃ³ria, completamente estÃ©tica.
 
-	ToolPesquisaStr: ToolPesquisaStr(tamanho do vetor, string para comparar, variavél do vetor)
-		Compara o valor de uma string e de uma string dentro de um vetor, caso não exista elá retorna -1.
+
+	ToolPesquisaStr: ToolPesquisaStr(tamanho do vetor, string para comparar, variavï¿½l do vetor)
 		
-	ToolPesquisaInt: ToolPesquisaInt(tamanho do vetor, número inteiro para comparar, variavél do vetor)
-		Compara o valor de um int e de um int dentro de um vetor e retorna a posição dele, caso não exista ela retorna -1.
 		
-	ToolPesquisaFloat: ToolPesquisaFloat(tamanho do vetor, número decimal para comparar, variavél do vetor)
-		Compara o valor de um float e de um float dentro de um vetor e retorna a posição dele, caso não exista ela retorna -1.
+	ToolPesquisaInt: ToolPesquisaInt(tamanho do vetor, nï¿½mero inteiro para comparar, variavï¿½l do vetor)
+		Compara o valor de um int e de um int dentro de um vetor e retorna a posiï¿½ï¿½o dele, caso nï¿½o exista ela retorna -1.
+		
+	ToolPesquisaFloat: ToolPesquisaFloat(tamanho do vetor, nï¿½mero decimal para comparar, variavï¿½l do vetor)
+		Compara o valor de um float e de um float dentro de um vetor e retorna a posiï¿½ï¿½o dele, caso nï¿½o exista ela retorna -1.
 */
 
 
 void ToolLinha(int tamanho, int quantidade){
-	if(quantidade == 0)
-		quatidade=1;
-	
-	while(quatidade<0){
+	while(quatidade>0){
 		printf("\n");
 		for(int i=0;i<tamanho;i++)
 			printf("-");
+		
+		quantidade--;
 	}
 }
 
