@@ -1,7 +1,6 @@
 /*Biblioteca feita por Dyego dos Anjos Cordeiro*/
 /*versão 3.0 ajustes em nomes*/
 
-
 void linha(int tamanho, int quantidade){
 	while(quantidade>0){
 		printf("\n");
